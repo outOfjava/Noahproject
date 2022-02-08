@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityPYQ" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/engpyq"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="englishpyq"
+            android:text="English"
+            app:cornerRadius="15dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="98dp"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/mathspyq"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="mathspyq"
+            android:text="Maths"
+            app:cornerRadius="15dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="158dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <Button
+            android:id="@+id/phypyq"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="physicspyq"
+            android:text="Physics"
+            app:cornerRadius="15dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="98dp"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+
+        <Button
+            android:id="@+id/chempyq"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="chemistrypyq"
+            android:text="Chemistry"
+            app:cornerRadius="15dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="88dp"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <Button
+            android:id="@+id/biopyq"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="biologypyq"
+            android:text="Biology"
+            app:cornerRadius="15dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="88dp"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="144dp" />
+        <Button
+            android:id="@+id/socialpyq"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="socialpyq"
+            android:text="Social Science"
+            app:cornerRadius="15dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="88dp"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

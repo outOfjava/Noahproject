@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "275752183830",
+    "firebase_url": "https://noah-5ec61-default-rtdb.firebaseio.com",
+    "project_id": "noah-5ec61",
+    "storage_bucket": "noah-5ec61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275752183830:android:33ab924452176fe570ad37",
+        "android_client_info": {
+          "package_name": "com.example.noah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275752183830-99t9lues21t0bra0t3cm5jkrla7vobpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdX3AL3ihVdUKp2rGQippwwt5X6SqwTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275752183830-99t9lues21t0bra0t3cm5jkrla7vobpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275752183830:android:e837f7825a493fd970ad37",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275752183830-99t9lues21t0bra0t3cm5jkrla7vobpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdX3AL3ihVdUKp2rGQippwwt5X6SqwTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275752183830-99t9lues21t0bra0t3cm5jkrla7vobpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275752183830:android:9cd27bc88d106af570ad37",
+        "android_client_info": {
+          "package_name": "com.example1.noah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275752183830-99t9lues21t0bra0t3cm5jkrla7vobpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdX3AL3ihVdUKp2rGQippwwt5X6SqwTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275752183830-99t9lues21t0bra0t3cm5jkrla7vobpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LectureNotesMainActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity=""
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btneng"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="68dp"
+            android:backgroundTint="#00838F"
+            android:onClick="demoenglish"
+            android:text="ENGLISH"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:iconPadding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="128dp"
+            tools:layout_conversion_absoluteWidth="128dp" />
+
+        <Button
+            android:id="@+id/btnmaths"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="184dp"
+            android:backgroundTint="#00838F"
+            android:onClick="demomaths"
+            android:paddingTop="2dp"
+            android:text="MATHS"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="128dp"
+            tools:layout_conversion_absoluteWidth="128dp" />
+
+        <Button
+            android:id="@+id/btnphy"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="56dp"
+            android:backgroundTint="#00838F"
+            android:onClick="demophysics"
+            android:paddingTop="2dp"
+            android:text="PHYSICS"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="128dp"
+            tools:layout_conversion_absoluteWidth="128dp" />
+
+        <Button
+            android:id="@+id/btnchem"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginEnd="56dp"
+            android:backgroundTint="#00838F"
+            android:onClick="demochemistry"
+            android:paddingTop="2dp"
+            android:text="CHEMISTRY"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="128dp"
+            tools:layout_conversion_absoluteWidth="128dp" />
+
+        <Button
+            android:id="@+id/btnbio"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="296dp"
+            android:layout_marginEnd="56dp"
+            android:backgroundTint="#00838F"
+            android:onClick="demobiology"
+            android:paddingTop="2dp"
+            android:text="BIOLOGY"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="128dp"
+            tools:layout_conversion_absoluteWidth="128dp" />
+
+        <Button
+            android:id="@+id/btnsocial"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#00838F"
+            android:onClick="demosocial"
+            android:paddingTop="2dp"
+            android:text="SOCIAL SCIENCE"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_conversion_absoluteHeight="128dp"
+            tools:layout_conversion_absoluteWidth="128dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example1.noah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Noah">
+        <activity
+            android:name=".MainVideoPlayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YearPYQ"
+            android:exported="false" />
+        <activity
+            android:name=".LectureVideoChapters"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadVideo"
+            android:exported="false" />
+        <activity
+            android:name=".LectureVideoPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityPYQ"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
+            android:name=".gamelist"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".LectureNoteModules"
+            android:exported="false" />
+        <activity
+            android:name=".LectureNotesMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateNotesActivity"
+            android:theme="@style/Theme.MyNotes" />
+        <activity
+            android:name=".AddNotesActivity"
+            android:theme="@style/Theme.MyNotes" />
+        <activity
+            android:name=".MainActivityNote"
+            android:theme="@style/Theme.MyNotes" />
+        <activity
+            android:name=".StartUp"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".GameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".GameOver"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".GameActivityBird"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeBird.noActionBar" />
+        <activity
+            android:name=".MainActivityBird"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeBird.noActionBar" />
+        <activity
+            android:name=".MainActivitySplash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
