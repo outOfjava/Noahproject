@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/noahbgrnd"
     android:orientation="vertical"
-    tools:context=".LectureNoteModules" >
+    tools:context=".LectureNoteModules">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,12 +17,14 @@
 
         <Button
             android:id="@+id/engch1"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="100dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="noteone"
             android:text="Module-1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
@@ -32,12 +35,14 @@
 
         <Button
             android:id="@+id/engch2"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="100dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="notetwo"
             android:text="Module-2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
@@ -47,12 +52,14 @@
 
         <Button
             android:id="@+id/engch3"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="100dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="notethree"
             android:text="Module-3"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
@@ -62,12 +69,14 @@
 
         <Button
             android:id="@+id/engch4"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="100dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="notefour"
             android:text="Module-4"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
@@ -77,12 +86,14 @@
 
         <Button
             android:id="@+id/engch5"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="100dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="notefive"
             android:text="Module-5"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"

@@ -9,21 +9,26 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:backgroundTint="#EDE587"
+        android:backgroundTint="@color/black"
+        app:cardBackgroundColor="#491010"
         app:cardCornerRadius="3dp"
         app:cardElevation="2dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#814735">
 
             <TextView
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="6dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
                 android:text="This is the Title"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -37,7 +42,7 @@
                 android:layout_marginEnd="6dp"
                 android:layout_marginBottom="6dp"
                 android:text="This is the description"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="18sp" />
 
 

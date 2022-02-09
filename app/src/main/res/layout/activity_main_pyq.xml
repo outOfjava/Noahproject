@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/noahbgrnd"
     android:orientation="vertical"
-    tools:context=".MainActivityPYQ" >
+    tools:context=".MainActivityPYQ">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -16,12 +17,14 @@
 
         <Button
             android:id="@+id/engpyq"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="80dp"
             android:layout_marginTop="75dp"
-            android:backgroundTint="#00BCD4"
+            android:backgroundTint="@color/black"
             android:onClick="englishpyq"
             android:text="English"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="98dp"
@@ -30,12 +33,14 @@
 
         <Button
             android:id="@+id/mathspyq"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="80dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00BCD4"
+            android:backgroundTint="@color/black"
             android:onClick="mathspyq"
             android:text="Maths"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="158dp"
@@ -44,12 +49,14 @@
 
         <Button
             android:id="@+id/phypyq"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="80dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00BCD4"
+            android:backgroundTint="@color/black"
             android:onClick="physicspyq"
             android:text="Physics"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="98dp"
@@ -59,12 +66,14 @@
 
         <Button
             android:id="@+id/chempyq"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="80dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00BCD4"
+            android:backgroundTint="@color/black"
             android:onClick="chemistrypyq"
             android:text="Chemistry"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="88dp"
@@ -73,32 +82,35 @@
 
         <Button
             android:id="@+id/biopyq"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="80dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00BCD4"
+            android:backgroundTint="@color/black"
             android:onClick="biologypyq"
             android:text="Biology"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="88dp"
             tools:layout_editor_absoluteX="106dp"
             tools:layout_editor_absoluteY="144dp" />
+
         <Button
             android:id="@+id/socialpyq"
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
+            android:layout_width="211dp"
+            android:layout_height="80dp"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#00BCD4"
+            android:backgroundTint="@color/black"
             android:onClick="socialpyq"
             android:text="Social Science"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             app:cornerRadius="15dp"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="88dp"
             tools:layout_editor_absoluteX="106dp"
             tools:layout_editor_absoluteY="144dp" />
-
-
 
 
     </LinearLayout>

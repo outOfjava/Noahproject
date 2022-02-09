@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/noahbgrnd"
     android:orientation="vertical"
-    tools:context=".DownloadVideo" >
+    tools:context=".DownloadVideo">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
@@ -17,13 +18,15 @@
 
         <Button
             android:id="@+id/btneng"
-            android:layout_width="125dp"
-            android:layout_height="75dp"
-            android:layout_marginStart="56dp"
+            android:layout_width="162dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="68dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="demoenglish"
             android:text="ENGLISH"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             app:iconPadding="2dp"
@@ -34,14 +37,16 @@
 
         <Button
             android:id="@+id/btnmaths"
-            android:layout_width="125dp"
-            android:layout_height="75dp"
-            android:layout_marginStart="56dp"
+            android:layout_width="162dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="184dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="demomaths"
             android:paddingTop="2dp"
             android:text="MATHS"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,14 +56,16 @@
 
         <Button
             android:id="@+id/btnphy"
-            android:layout_width="125dp"
-            android:layout_height="75dp"
+            android:layout_width="162dp"
+            android:layout_height="105dp"
             android:layout_marginTop="68dp"
-            android:layout_marginEnd="56dp"
-            android:backgroundTint="#00838F"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/black"
             android:onClick="demophysics"
             android:paddingTop="2dp"
             android:text="PHYSICS"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -68,14 +75,16 @@
 
         <Button
             android:id="@+id/btnchem"
-            android:layout_width="125dp"
-            android:layout_height="75dp"
+            android:layout_width="162dp"
+            android:layout_height="105dp"
             android:layout_marginTop="184dp"
-            android:layout_marginEnd="56dp"
-            android:backgroundTint="#00838F"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/black"
             android:onClick="demochemistry"
             android:paddingTop="2dp"
             android:text="CHEMISTRY"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -85,39 +94,43 @@
 
         <Button
             android:id="@+id/btnbio"
-            android:layout_width="125dp"
-            android:layout_height="75dp"
-            android:layout_marginTop="296dp"
-            android:layout_marginEnd="56dp"
-            android:backgroundTint="#00838F"
+            android:layout_width="162dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/black"
             android:onClick="demobiology"
             android:paddingTop="2dp"
             android:text="BIOLOGY"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnchem"
             tools:layout_conversion_absoluteHeight="128dp"
             tools:layout_conversion_absoluteWidth="128dp" />
 
         <Button
             android:id="@+id/btnsocial"
-            android:layout_width="125dp"
-            android:layout_height="75dp"
-            android:layout_marginStart="56dp"
+            android:layout_width="162dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="20dp"
             android:layout_marginBottom="4dp"
-            android:backgroundTint="#00838F"
+            android:backgroundTint="@color/black"
             android:onClick="demosocial"
             android:paddingTop="2dp"
             android:text="SOCIAL SCIENCE"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnbio"
             tools:layout_conversion_absoluteHeight="128dp"
             tools:layout_conversion_absoluteWidth="128dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
 </ScrollView>
