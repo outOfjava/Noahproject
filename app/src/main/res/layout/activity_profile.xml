@@ -21,23 +21,6 @@
             tools:layout_editor_absoluteX="0dp" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="150dp"
-            android:layout_height="65dp"
-            android:backgroundTint="@color/black"
-            android:onClick="signOut"
-            android:text="LOGOUT"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/button4"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/button4"
-            app:layout_constraintTop_toBottomOf="@+id/button4"
-            app:layout_constraintVertical_bias="0.587" />
-
-        <Button
             android:id="@+id/button4"
             android:layout_width="150dp"
             android:layout_height="65dp"

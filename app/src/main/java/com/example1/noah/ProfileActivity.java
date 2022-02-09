@@ -2,6 +2,8 @@ package com.example1.noah;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -56,18 +58,10 @@ private String userID;
             }
         });
     }
-    public void signOut(View view)
-    {
-        FirebaseAuth.getInstance().signOut();
-        Intent i=new Intent(ProfileActivity.this,MainActivity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(i);
-        finish();
 
 
 
 
-    }
     public void Proceed(View view)
     {
         Intent intent=new Intent(getApplicationContext(),MainPage.class);
@@ -78,6 +72,42 @@ private String userID;
         a.addCategory(Intent.CATEGORY_HOME);
         a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(a);
+
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.profile_page_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.aboutItem:
+                aboutItemClicked();
+                break;
+            case R.id.feedbackItem:
+                feedbackItemClicked();
+                break;
+            case R.id.logoutItem:
+                logoutItemClick();
+                break;
+        }
+        return true;
+    }
+    private void aboutItemClicked() {
+        Intent intent = new Intent(ProfileActivity.this, AboutActivity.class);
+        startActivity(intent);
+
+    }
+    private void feedbackItemClicked() {
+        Intent intent = new Intent(ProfileActivity.this, FeedbackActivity.class);
+        startActivity(intent);
+    }
+    private void logoutItemClick() {
+        FirebaseAuth.getInstance().signOut();
+        Intent i=new Intent(ProfileActivity.this,MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+        finish();
 
     }
 }

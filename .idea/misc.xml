@@ -40,27 +40,27 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Noah/app/src/main/res/menu/edit_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Noah/app/src/main/res/menu/options_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Noah/app/src/main/res/menu/options_menu_video.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_about.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_main_pyq.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_main_video_play.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_update_notes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/activity_year_pyq.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/layout/calculator_activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Noahproject/app/src/main/res/menu/options_menu_video.xml" value="0.36666666666666664" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_add_notes.xml" value="0.19293478260869565" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_download_video.xml" value="0.19293478260869565" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_forgot_password.xml" value="0.19293478260869565" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_gamelist.xml" value="0.19293478260869565" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_lecture_video_chapters.xml" value="0.19293478260869565" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/activity_lecture_video_page.xml" value="0.22826086956521738" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/activity_lecturenote_modules.xml" value="0.22826086956521738" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/activity_main_pyq.xml" value="0.22826086956521738" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/activity_main_video_play.xml" value="0.1" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_profile.xml" value="0.19293478260869565" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_register.xml" value="0.19293478260869565" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/activity_update_notes.xml" value="0.19293478260869565" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/activity_year_pyq.xml" value="0.264" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/bird_activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/calculator_activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/game_over.xml" value="0.22826086956521738" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/lecturenotes.xml" value="0.264" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/note_activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/page_main.xml" value="0.19293478260869565" />
-        <entry key="..\:/work/Noah/app/src/main/res/layout/recycler_view_layout.xml" value="0.16799999999999998" />
+        <entry key="..\:/work/Noah/app/src/main/res/layout/recycler_view_layout.xml" value="0.19293478260869565" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/splash_activity_main.xml" value="0.18568840579710144" />
         <entry key="..\:/work/Noah/app/src/main/res/layout/startup.xml" value="0.19293478260869565" />
       </map>
