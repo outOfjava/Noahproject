@@ -8,8 +8,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,11 +22,13 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class Register extends AppCompatActivity {
+public class Register extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private FirebaseAuth mAuth;
     private TextView banner,registerUser;
-    private EditText editTextFullName, editTextAge, editTextEmail, editTextPassword;
+    private EditText editTextFullName, editTextEmail, editTextPassword;
     private ProgressBar progressBar;
+    private Spinner spinner;
+    String itemStandard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,33 +37,26 @@ public class Register extends AppCompatActivity {
         banner=findViewById(R.id.textView);
         registerUser=findViewById(R.id.button2);
         editTextFullName=findViewById(R.id.editTextTextPersonName);
-        editTextAge =findViewById(R.id.editTextNumber);
+        spinner =(Spinner) findViewById(R.id.spinner);
+        ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource(this,R.array.standardsarray, R.layout.spinner_view);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
         editTextEmail=findViewById(R.id.editTextTextEmailAddress2);
         editTextPassword=findViewById(R.id.editTextTextPassword2);
         progressBar=findViewById(R.id.progressBar2);
     }
-    public void home(View view)
-    {
 
-        Intent i=new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(i);
-    }
     public void registerUser(View view)
     {
         String email=editTextEmail.getText().toString().trim();
         String password=editTextPassword.getText().toString().trim();
         String fullName=editTextFullName.getText().toString().trim();
-        String standard=editTextAge.getText().toString().trim();
+        String standard=itemStandard.trim();
         if(fullName.isEmpty())
         {
             editTextFullName.setError("Full name is required!");
             editTextFullName.requestFocus();
-            return;
-        }
-        if(standard.isEmpty())
-        {
-            editTextAge.setError("Age is required!");
-            editTextAge.requestFocus();
             return;
         }
         if(email.isEmpty())
@@ -116,6 +114,17 @@ public class Register extends AppCompatActivity {
                     }
                 });
 
+
+    }
+
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        itemStandard= parent.getItemAtPosition(position).toString();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
 
     }
 }

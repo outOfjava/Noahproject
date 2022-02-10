@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Noah</string>
     <string name="title_activity_detail">Detail</string>
+    <string name="standardname">Standard</string>
+    <string-array name="standardsarray">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+
+    </string-array>
 </resources>
