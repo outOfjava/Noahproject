@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.widget.Space;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+// game activity for space shooter
 public class GameActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

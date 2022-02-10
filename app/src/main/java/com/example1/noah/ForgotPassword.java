@@ -26,6 +26,7 @@ FirebaseAuth auth;
         progressBar=findViewById(R.id.progressBar3);
         auth= FirebaseAuth.getInstance();
     }
+    // resets the password using the firebase Auth feature
     public void Reset(View view)
     {
         String email=emailEditText.getText().toString().trim();

@@ -1,5 +1,5 @@
 package com.example1.noah;
-
+// for notepad
 public class Model {
 
         String title;

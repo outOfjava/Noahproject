@@ -13,11 +13,13 @@ public class LectureVideoPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lecture_video_page);
     }
+    // goes to play video activity
     public void playvideo(View view)
     {
         Intent intent=new Intent(getApplicationContext(),MainVideoPlayActivity.class);
         startActivity(intent);
     }
+    // goes to video downloads page
     public void downloadvideo(View view)
     {
         Intent intent=new Intent(getApplicationContext(),DownloadVideo.class);

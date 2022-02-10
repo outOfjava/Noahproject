@@ -46,7 +46,7 @@ public class Register extends AppCompatActivity implements AdapterView.OnItemSel
         editTextPassword=findViewById(R.id.editTextTextPassword2);
         progressBar=findViewById(R.id.progressBar2);
     }
-
+// to register the user- after registration back to main activity(login page)
     public void registerUser(View view)
     {
         String email=editTextEmail.getText().toString().trim();
@@ -117,7 +117,7 @@ public class Register extends AppCompatActivity implements AdapterView.OnItemSel
 
     }
 
-
+// spinner used for standard field in registration
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         itemStandard= parent.getItemAtPosition(position).toString();

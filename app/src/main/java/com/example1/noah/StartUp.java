@@ -14,6 +14,7 @@ public class StartUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.startup);
     }
+    // goes to game activity when clicking the play button
     public void startGame(View view){
         startActivity(new Intent(this,GameActivity.class));
         finish();

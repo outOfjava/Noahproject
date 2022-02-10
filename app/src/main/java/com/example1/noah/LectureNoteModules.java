@@ -49,7 +49,7 @@ public class LectureNoteModules extends AppCompatActivity {
         filenamenote="Module-5";
         lecturenote();
     }
-
+// download the file from the firebase from the path given
     public void downloadFile(Context context, String fileName,
                              String fileExt, String destinationDirectory, String url) {
         DownloadManager downloadManager = (DownloadManager)

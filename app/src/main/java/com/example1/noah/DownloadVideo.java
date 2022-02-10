@@ -14,7 +14,7 @@ public class DownloadVideo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_download_video);
     }
-
+// buy clicking upon each buttons- goes to lecture video activity with the path string
     public void demoenglish(View view) {
         pathname="LectureVideos/English/";
         Intent intent = new Intent(getApplicationContext(), LectureVideoChapters.class);

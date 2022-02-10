@@ -13,6 +13,7 @@ public class gamelist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gamelist);
     }
+    //Navigates to curresponding game activity while clicking the button
     public void space(View view){
         Intent intent=new Intent(getApplicationContext(),StartUp.class);
         startActivity(intent);

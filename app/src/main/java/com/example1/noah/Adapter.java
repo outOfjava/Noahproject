@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// adapter class for notepad
 public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> implements Filterable {
 
     Context context;

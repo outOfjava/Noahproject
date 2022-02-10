@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+// bird game activity
 public class GameActivityBird extends AppCompatActivity {
 
     private com.example1.noah.GameView gameView;

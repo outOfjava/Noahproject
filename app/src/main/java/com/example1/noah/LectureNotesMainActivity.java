@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LectureNotesMainActivity extends AppCompatActivity {
     String pathnamenote;
-
+// navigate to luctute note class with the path saved in firebase
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

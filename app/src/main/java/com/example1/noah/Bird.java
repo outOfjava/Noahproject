@@ -7,7 +7,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
-
+// birds are accessed from the drawable and animated
 public class Bird {
 
     public int speed = 20;

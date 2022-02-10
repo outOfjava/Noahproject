@@ -43,7 +43,7 @@ public class MainActivityNote extends AppCompatActivity {
         fab = findViewById(R.id.fab);
         coordinatorLayout = findViewById(R.id.layout_main);
 
-
+// goes to add note
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +79,7 @@ public class MainActivityNote extends AppCompatActivity {
         }
 
     }
-
+// menu in note pad with option to search and delete all
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.options_menu, menu);

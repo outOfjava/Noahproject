@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar=findViewById(R.id.progressBar);
         mAuth=FirebaseAuth.getInstance();
 
-
+// to register activity
     }
     public void register(View view)
     {
@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    // compares the email and password and redirect to the profile page
     public void signIn(View view)
     {
         String email=editTextEmail.getText().toString().trim();
@@ -93,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    // goes to forgot password page
     public void forgotPassword(View view)
     {
         startActivity(new Intent(this,ForgotPassword.class));

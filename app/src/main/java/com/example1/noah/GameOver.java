@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+// game over and displays the point
 public class GameOver extends AppCompatActivity {
     TextView tvPoints;
     @Override

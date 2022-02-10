@@ -17,7 +17,7 @@ import android.view.SurfaceView;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+// the game view
 public class GameView extends SurfaceView implements Runnable {
 
     private Thread thread;

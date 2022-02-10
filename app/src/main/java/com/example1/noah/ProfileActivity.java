@@ -35,7 +35,7 @@ private String userID;
         final TextView fullNameTextView = findViewById(R.id.fullName);
         final TextView emailTextView = findViewById(R.id.emailAddress);
         final TextView ageTextView = findViewById(R.id.age);
-
+// gets the value from realtime data with using user class
         reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -61,12 +61,13 @@ private String userID;
 
 
 
-
+// goes to main page
     public void Proceed(View view)
     {
         Intent intent=new Intent(getApplicationContext(),MainPage.class);
         startActivity(intent);
     }
+    // exits from the app (to continew without loggin in again)
     public void onBackPressed() {
         Intent a = new Intent(Intent.ACTION_MAIN);
         a.addCategory(Intent.CATEGORY_HOME);
@@ -74,11 +75,14 @@ private String userID;
         startActivity(a);
 
     }
+    //menu in main page
     public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.profile_page_menu,menu);
         return super.onCreateOptionsMenu(menu);
     }
+
+    // to check which item is selected from the menu
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.aboutItem:
@@ -93,15 +97,19 @@ private String userID;
         }
         return true;
     }
+    // goes to about page
     private void aboutItemClicked() {
         Intent intent = new Intent(ProfileActivity.this, AboutActivity.class);
         startActivity(intent);
 
     }
+    // goes to feedback page
     private void feedbackItemClicked() {
         Intent intent = new Intent(ProfileActivity.this, FeedbackActivity.class);
         startActivity(intent);
     }
+
+    // logout from the profile goes back to login page
     private void logoutItemClick() {
         FirebaseAuth.getInstance().signOut();
         Intent i=new Intent(ProfileActivity.this,MainActivity.class);

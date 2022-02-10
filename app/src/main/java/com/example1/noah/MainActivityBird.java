@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivityBird extends AppCompatActivity {
 
     private boolean isMute;
-
+// goes to bird game activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

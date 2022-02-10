@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivityPYQ extends AppCompatActivity {
-
+// goes to year page with the path
 
     String pathnamepyq="";
 

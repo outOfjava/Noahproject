@@ -3,7 +3,7 @@ package com.example1.noah;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-
+//shot
 public class Shot {
     Bitmap shot;
     Context context;

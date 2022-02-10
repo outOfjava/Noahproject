@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
-
+//database class to save the notes
 public class DatabaseClass extends SQLiteOpenHelper {
 
     Context context;

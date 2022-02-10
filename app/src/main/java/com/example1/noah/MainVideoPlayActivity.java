@@ -20,6 +20,7 @@ public class MainVideoPlayActivity extends AppCompatActivity {
         v1 = findViewById(R.id.videoView3);
         v2 = findViewById(R.id.videoView5);
         v3 = findViewById(R.id.videoView6);
+        //initialising different video players for each videos
         MediaController mc = new MediaController(this);
         mc.setAnchorView(v1);
         MediaController mc1 = new MediaController(this);
@@ -35,6 +36,7 @@ public class MainVideoPlayActivity extends AppCompatActivity {
         v3.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.chapter3));
         v3.setMediaController(mc2);
     }
+    // the video starts playing only after clicking on the video
     public void v1(View view){
         v1.start();
     }

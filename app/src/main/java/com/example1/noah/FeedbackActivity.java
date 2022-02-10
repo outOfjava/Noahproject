@@ -23,7 +23,7 @@ public class FeedbackActivity extends AppCompatActivity {
         name = (EditText) findViewById(R.id.editTextTextPersonName2);
         feedback = (EditText) findViewById(R.id.editTextTextMultiLine);
         submitBtn = (Button) findViewById((R.id.button2));
-
+// when submiting the feedback by clicking the button
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

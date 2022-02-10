@@ -7,7 +7,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
-
+// flight for bird game
 public class Flight {
 
     int toShoot = 0;

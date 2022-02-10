@@ -3,7 +3,7 @@ package com.example1.noah;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-
+// explosion for space game
 public class Explosion {
     Bitmap explosion[]=new Bitmap[9];
     int explosionFrame;

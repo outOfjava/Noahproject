@@ -14,7 +14,7 @@ public class AddNotesActivity extends AppCompatActivity {
 
     EditText title, description;
     Button addNote;
-
+// add the notes and the title to edit text and saves in database class
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

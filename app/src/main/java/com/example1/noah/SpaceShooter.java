@@ -16,7 +16,7 @@ import android.os.Handler;
 import java.util.ArrayList;
 import java.util.Random;
 
-
+// the game runs on this class
 public class SpaceShooter extends View {
     Context context;
     Bitmap background, lifeImage;

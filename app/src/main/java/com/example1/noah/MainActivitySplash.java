@@ -34,7 +34,7 @@ TextView logo,slogan;
         image.setAnimation(topAnim);
         logo.setAnimation(bottomAnim);
         slogan.setAnimation(bottomAnim);
-
+// to next activity
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

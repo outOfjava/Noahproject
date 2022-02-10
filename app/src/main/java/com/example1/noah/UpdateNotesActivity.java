@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+// class for editing and updateing the notes in database
 public class UpdateNotesActivity extends AppCompatActivity {
 
     EditText title,description;

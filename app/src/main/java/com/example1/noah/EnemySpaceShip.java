@@ -5,7 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
 import java.util.Random;
-
+// class for enimy spaceship
 public class EnemySpaceShip {
     Context context;
     Bitmap enemySpaceship;

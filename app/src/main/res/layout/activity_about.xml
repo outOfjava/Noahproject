@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/noahbgrnd"
-    tools:context=".Register">
+    tools:context=".AboutActivity">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -42,12 +42,12 @@
 
         <TextView
             android:id="@+id/textView8"
-            android:layout_width="377dp"
-            android:layout_height="197dp"
+            android:layout_width="381dp"
+            android:layout_height="310dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="16dp"
-            android:text="NoaH the student app is build for students who are in need of a platfor to build up there career. The creators of this apps are Fisal, Albin, Archana, Sukanya and Sandhya                                                                                  Email id: noahpeopz@gmail.com"
+            android:text="NoaH- The Student App is a virtual learning platform where the students can explore various functinalities in order to enhance their academics.\n Creators: \n Faisal\nAlbin\nArchana\nSukanya\nSandhya \nEmail id: noahpeopz@gmail.com"
             android:textAlignment="center"
             android:textColor="#F4EDED"
             android:textSize="20sp"

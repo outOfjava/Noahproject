@@ -80,7 +80,8 @@
             <VideoView
                 android:id="@+id/videoView6"
                 android:layout_width="match_parent"
-                android:layout_height="800dp" />
+                android:layout_height="800dp"
+                android:onClick="v3" />
         </LinearLayout>
 
 

@@ -11,8 +11,9 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
+        setContentView(R.layout.activity_about); // layout to view the details about the app and creators
     }
+    // back to main page
     public void back(View view){
         Intent i=new Intent(AboutActivity.this,ProfileActivity.class);
         i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);

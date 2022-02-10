@@ -22,7 +22,7 @@ public class LectureVideoChapters extends AppCompatActivity {
     String filename="";
     String pathname;
 
-
+// using the string path downloads corresponding video files
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
