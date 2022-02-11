@@ -113,6 +113,12 @@ public class MainActivityNote extends AppCompatActivity {
         if (item.getItemId() == R.id.delete_all_notes) {
             deleteAllNotes();
         }
+        else if (item.getItemId() == R.id.Lecture_vid) {
+            gotolecture();
+        }
+        else if (item.getItemId() == R.id.Lecture_Note) {
+            gotonote();
+        }
 
 
         return super.onOptionsItemSelected(item);
@@ -122,6 +128,14 @@ public class MainActivityNote extends AppCompatActivity {
         com.example1.noah.DatabaseClass db = new com.example1.noah.DatabaseClass(MainActivityNote.this);
         db.deleteAllNotes();
         recreate();
+    }
+    private void gotolecture() {
+        Intent i=new Intent(getApplicationContext(),LectureVideoPage.class);
+        startActivity(i);
+    }
+    private void gotonote() {
+        Intent intent=new Intent(getApplicationContext(),LectureNotesMainActivity.class);
+        startActivity(intent);
     }
 
 
