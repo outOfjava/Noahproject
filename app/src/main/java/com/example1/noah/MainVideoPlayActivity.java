@@ -1,5 +1,6 @@
 package com.example1.noah;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -47,5 +48,14 @@ public class MainVideoPlayActivity extends AppCompatActivity {
         v3.start();
     }
 
-
+public void calculator(View view)
+{
+    Intent i=new Intent(getApplicationContext(),MainActivityCalculator.class);
+    startActivity(i);
+}
+    public void notepad(View view)
+    {
+        Intent intent=new Intent(getApplicationContext(),MainActivityNote.class);
+        startActivity(intent);
+    }
 }
